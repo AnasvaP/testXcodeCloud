@@ -22,6 +22,7 @@ final class TestXCTests: XCTestCase {
     func testExample() throws {
         XCTAssertEqual(2*2, 4)
         XCTAssertEqual(2*3, 6)
+        XCTAssertEqual(2*3, 0)
     }
 
     func testPerformanceExample() throws {
